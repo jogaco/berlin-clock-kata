@@ -9,3 +9,17 @@ Feature: Converting Digital Time to Berlin Time
       | input    | output      |
       | 00:00:00 | OOOOOOOOOOO |
       | 23:59:59 | YYRYYRYYRYY |
+      | 12:04:00 | OOOOOOOOOOO |
+      | 12:23:00 | YYRYOOOOOOO |
+      | 12:35:00 | YYRYYRYOOOO |
+
+
+
+
+
+
+
+
+
+
+
