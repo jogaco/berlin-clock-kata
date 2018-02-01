@@ -1,7 +1,7 @@
-package skeleton;
+package berlinclock;
 
 public class BerlinClockToDigitalConverter {
-    
+
     String convertLastMinutesRow(String time) {
         String[] parts = time.split(":");
         String minutes = parts[1];

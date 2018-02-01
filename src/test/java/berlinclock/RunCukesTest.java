@@ -1,4 +1,4 @@
-package skeleton;
+package berlinclock;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

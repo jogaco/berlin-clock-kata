@@ -12,13 +12,13 @@ There is a single feature file with one scenario. The scenario has three steps, 
 
 Git:
 
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
-    cd cucumber-java-skeleton
+    git clone https://github.com/cucumber/cucumber-java-berlinclock.git
+    cd cucumber-java-berlinclock
 
 Subversion:
 
-    svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
-    cd cucumber-java-skeleton
+    svn checkout https://github.com/cucumber/cucumber-java-berlinclock/trunk cucumber-java-berlinclock
+    cd cucumber-java-berlinclock
 
 Or simply [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/master.zip) file.
 
@@ -88,12 +88,12 @@ file.
 
 Specify a particular scenario by *line* (and use the pretty plugin, which prints the scenario back)
 
-    -Dcucumber.options="classpath:skeleton/belly.feature:4 --plugin pretty"
+    -Dcucumber.options="classpath:berlinclock/belly.feature:4 --plugin pretty"
 
 This works because Maven puts `./src/test/resources` on your `classpath`.
 You can also specify files to run by filesystem path:
 
-    -Dcucumber.options="src/test/resources/skeleton/belly.feature:4 --plugin pretty"
+    -Dcucumber.options="src/test/resources/berlinclock/belly.feature:4 --plugin pretty"
 
 You can also specify what to run by *tag*:
 
