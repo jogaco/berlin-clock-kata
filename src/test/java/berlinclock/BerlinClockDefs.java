@@ -8,13 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class BerlinClockDefs {
 
-    private BerlinClockToDigitalConverter converter;
+    private BerlinClock converter;
     private String lastMinuteRowResult;
     private String fiveMinuteRowResult;
 
     @Given("^I have started the converter$")
     public void the_converter() throws Throwable {
-        converter = new BerlinClockToDigitalConverter();
+        converter = new BerlinClock();
     }
 
     @When("^I enter (.+)$")
